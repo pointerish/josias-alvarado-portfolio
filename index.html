@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+    <link rel="shortcut icon" href="/assets/images/favicon.svg" type="image/x-icon">
+    <title>Josias Alvarado | Portfolio</title>
+</head>
+<body>
+  <nav class="dark-grey-background md:hidden p-2">
+    <div class="flex justify-between">
+      <div class="text-2xl font-bold font-white text-center">
+        <a href="https://josias-alvarado.me">JA</a>
+      </div>
+      <div class="flex">
+        <li class="px=4">
+          <a href="https://linkedin.com/in/josias-alvarado">
+            <img class="object-contain h-7" src="/assets/images/linkedin.svg"/>
+          </a>
+        </li>
+        <li class="px=4">
+          <a href="https://github.com/pointerish">
+            <img class="object-contain h-7" src="/assets/images/github.svg"/>
+          </a>
+        </li>
+        <li class="px=4">
+          <a href="mailto:josiasjag@gmail.com">
+            <img class="object-contain h-7" src="/assets/images/email.svg"/>
+          </a>
+        </li>
+      </div>
+    </div>
+  </nav>
+  <div class="md:grid md:grid-cols-4 md:grid-rows-2 md:gap-0">
+    <div class="hidden md:visible md:col-span-1 dark-grey-background">
+      <div class="container mx-auto flex justify-center align-items">
+        <div class="text-xl font-bold font-white text-center">JOSIAS ALVARADO</div>
+      </div>
+    </div>
+    <div class="md:col-span-3 bg-black h-screen">
+      <p class="text-2xl font-bold md:hidden font-white text-center pt-12">JOSIAS ALVARADO</p>
+      <p class="text-xl font-bold font-white text-center mt-5">See my projects</p>
+      <div class="container mx-auto flex justify-center p-12 h-screen">
+        <div class="grid grid-cols-2 gap-6 auto-rows-min">
+          <div class="card max-h-56">
+            <div class="mcnamara bg-image">
+              <a href="http://45.33.46.146/"></a>
+                <img class="object-contain h-20 w-full" src="/assets/images/mcnamara.png"/>
+              </a>
+            </div>
+            <p class="text-center font-white underline">McNamara</p>
+            <small class="font-xs font-white text-center p-2">An expense tracker Rails 6 application. Deployed to a Linux server with Docker and HAProxy</small>
+          </div>
+          <div class="card max-h-56">
+            <div class="bg-image">
+              <a href="https://github.com/pointerish/Clockwork"></a>
+                <img class="object-contain h-20 w-full" src="/assets/images/clockwork.png"/>
+              </a>
+            </div>
+            <p class="text-center font-white underline">Clockwork</p>
+            <small class="font-xs font-white text-center p-2">A Django REST API. It serves filmographic data. Deployed with Docker and Nginx</small>
+          </div>
+          <div class="card max-h-56">
+            <div class="bg-image">
+              <a href="https://github.com/pointerish/Ensemble"></a>
+                <img class="object-contain h-20 w-full" src="/assets/images/ensemble.png"/>
+              </a>
+            </div>
+            <p class="text-center font-white underline">Ensemble</p>
+            <small class="font-xs font-white text-center p-2">An event planner application built with Rails 6, Bootstrap, SASS and PostgreSQL</small>
+          </div>
+          <div class="card max-h-56">
+            <div class="bg-image">
+              <a href="https://github.com/pointerish/Chatterton"></a>
+                <img class="object-contain h-20 w-full" src="/assets/images/chatterton.png"/>
+              </a>
+            </div>
+            <p class="text-center font-white underline">Chatterton</p>
+            <small class="font-xs font-white text-center">A Discord chatbot built with Ruby. It tells jokes, history facts, and Apex Legends player stats</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

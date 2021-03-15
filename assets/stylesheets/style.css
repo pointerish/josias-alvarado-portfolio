@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans');
+
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.font-white {
+  color: white;
+}
+
+.dark-grey-background {
+  background-color: #292929;
+}
+
+
+body {
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+  padding-right: 1rem;
+}
